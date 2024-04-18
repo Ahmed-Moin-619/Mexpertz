@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.header {
+
+    width: 100%;
+    /* position: relative; */
+    height: 100vh;
+    background: url(./public/img/header.jpg)no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.head_button button {
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+
+.gradient_button {
+    background: linear-gradient(90deg, rgba(5, 27, 130, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+.btn-color{
+    background-color: #1AFF5A ;
+} 
+.btn-color-2{
+    background-color: #FFBF1A;
+}
